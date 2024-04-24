@@ -11,7 +11,7 @@ Develop a three-tier application using Docker, employing a multi-container setup
 1. Get a sample 3-tier project. <br>
    Here, I have cloned this MERN stack project from github.
    `https://github.com/samaronybarros/movies-app`
-   ![image info](./ss/1.png)
+   ![image info](./ss/s1.png)
 
 2. After cloning, we have to create two separate `Dockerfile` for each `client` & `server`. <br>
    We wil use `docker compose` to create a multi-container setup.
@@ -116,22 +116,22 @@ Develop a three-tier application using Docker, employing a multi-container setup
       docker build -t "react-app" ./client/
       ```
 
-      ![image info](./ss/2.png)
+      ![image info](./ss/s2.png)
       docker desktop:
-      ![image info](./ss/3.png)
+      ![image info](./ss/s3.png)
 
    2. ```bash
       docker build -t "api-server" ./server/
       ```
 
-      ![image info](./ss/4.png)
+      ![image info](./ss/s4.png)
       docker desktop:
-      ![image info](./ss/5.png)
+      ![image info](./ss/s5.png)
 
    3. ```bash
       docker pull mongo:latest
       ```
-      ![image info](./ss/6.png)
+      ![image info](./ss/s6.png)
 
 8. Now we use Docker Compose to run stack of containers.
 
@@ -139,32 +139,32 @@ Develop a three-tier application using Docker, employing a multi-container setup
    docker-compose up -d
    ```
 
-   ![image info](./ss/7.png)<br>
+   ![image info](./ss/s7.png)<br>
 
    <b>Docker Desktop</b>
-   ![image info](./ss/8.png)
+   ![image info](./ss/s8.png)
 
-   ![image info](./ss/9.png)
+   ![image info](./ss/s9.png)
 
-   ![image info](./ss/10.png)
+   ![image info](./ss/s10.png)
 
-   ![image info](./ss/11.png)
+   ![image info](./ss/s11.png)
 
-   ![image info](./ss/12.png)
+   ![image info](./ss/s12.png)
 
 9. Test on localhost.
-   ![image info](./ss/13.png)
+   ![image info](./ss/s13.png)
 
-   ![image info](./ss/14.png)
+   ![image info](./ss/s14.png)
 
-   ![image info](./ss/15.png)
+   ![image info](./ss/s15.png)
 
 10. Verify on MongoDB Compass
-    ![image info](./ss/16.png)
+    ![image info](./ss/s16.png)
 
 11. Push Images to DockerHub
-    ![image info](./ss/17.png)
+    ![image info](./ss/s17.png)
 
-    ![image info](./ss/18.png)
+    ![image info](./ss/s18.png)
 
-    ![image info](./ss/19.png)
+    ![image info](./ss/s19.png)
