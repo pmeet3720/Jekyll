@@ -4,7 +4,7 @@
 
 ## Problem Statement:
 
-Create any three-tier application using Docker, using a multi-container setup. Build at least one docker image using Dockerfile. You are free to use your old projects, build new projects or take any project from GitHub. However, if you are using a project from Github, properly cite the original author of the code in your blog.
+Develop a three-tier application using Docker, employing a multi-container setup. Ensure that at least one Docker image is constructed using a Dockerfile. You can utilize existing projects, create new ones, or select projects from GitHub. If opting for a GitHub project, appropriately acknowledge the original author in your documentation.
 
 ## Steps
 
